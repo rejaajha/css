@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.paragraf-1 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.paragraf-2 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.paragraf-3 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.paragraf-4 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.paragraf-5 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+i {
+    text-decoration: underline;
+}
