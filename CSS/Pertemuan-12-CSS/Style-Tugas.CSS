@@ -10,32 +10,42 @@ header {
 
 .paragraf-1 {
     background-color: white;
-    text-align: center;
+    text-align: justify;
     color: black;
+    padding: 20px;
+    padding-right: 500px;
 }
 
 .paragraf-2 {
     background-color: white;
-    text-align: center;
+    text-align: justify;
     color: black;
+    padding: 20px;
+    padding-right: ;
 }
 
 .paragraf-3 {
     background-color: white;
-    text-align: center;
+    text-align: justify;
     color: black;
+    padding: 20px;
+    padding-right: 500px;
 }
 
 .paragraf-4 {
     background-color: white;
-    text-align: center;
+    text-align: justify;
     color: black;
+    padding: 20px;
+    padding-right: 500px;
 }
 
 .paragraf-5 {
     background-color: white;
-    text-align: center;
+    text-align: justify;
     color: black;
+    padding: 20px;
+    padding-right: 500px;
 }
 
 h1 {
