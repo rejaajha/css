@@ -1,0 +1,37 @@
+body {
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    
+}
+
+h1 {
+    color: #B45253;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+     width: 683px;
+    height: 386px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;    
+}
+
+p {
+    padding: 0 400px;
+    color: rgb(27, 133, 11);
+}
+
+button {
+    width: 600px;
+    height: 40px;
+    border: 2px solid rgb(23, 23, 204);
+    border-radius: 40px;
+    background-color: #fff;
+    font-weight: bold;
+    color: rgb(23, 23, 204);
+    cursor: pointer;
+}
