@@ -1,0 +1,35 @@
+body {
+    font-size: 10px;
+}
+
+header {
+  width: 500px;
+  background-color: #008000;
+  color: black;
+  padding: 8px;
+  font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.text-big {
+    font-size: 120%;
+}
+
+article {
+  width: 600px;
+  background-color: honeydew;
+  padding: 16px;
+}
+
+

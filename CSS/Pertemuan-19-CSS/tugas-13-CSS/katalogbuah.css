@@ -1,0 +1,75 @@
+body {
+    background-color: antiquewhite;
+}
+
+.body-katalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+}
+
+.jeruk img {
+    height: 100px;
+    width: 150px;
+}
+
+.kiwi img {
+    height: 100px;
+    width: 150px;
+}
+
+.mangga img {
+    height: 100px;
+    width: 150px;
+}
+
+.mangga {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.321);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.kiwi {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.321);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.jeruk {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.321);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.mangga:hover {
+    box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.467);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.kiwi:hover {
+    box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.467);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.jeruk:hover {
+    box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.467);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+h3 {
+    border: 2px dashed black;
+}
+
