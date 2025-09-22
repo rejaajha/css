@@ -1,0 +1,34 @@
+header {
+    width: 90vw; 
+    height: 20em;
+    color: bisque;
+    background-color: coral;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+#box1 {
+    width: 300px;
+    height: 150px;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+#box2 {
+    width: 300px;
+    height: 150px;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+#box3 {
+    width: 300px;
+    height: 150px;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+}
