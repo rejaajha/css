@@ -1,0 +1,38 @@
+.container {
+    background: lightgreen;
+    width: 600px;
+    height: 150px;
+}
+
+.yellow-box {
+    display: inline-block;
+    margin: 10px;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+.inline-block {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+    top: 40px;
+}
+
+.text {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.fixed {
+    position: fixed;
+    top: 390px;
+    width: 300px;
+    padding: 10px 20px;
+    background: green;
+}
