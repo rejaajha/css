@@ -1,0 +1,64 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    font-size: 6px;
+    padding: 3px;
+}
+
+.gambar {
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.gambar img {
+    width: 600px;
+    height: 400px;
+}
+
+.gambar span {
+    display: inline-block;
+    background-color: cadetblue;
+    position: absolute; top: 8px; right: 8px;
+    padding: 2px;
+}
+
+.gambar .tag {
+    position: relative; top: 4px;
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.tumdih {
+    border: 1px solid black;
+    position: relative;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+
+.a {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    z-index: 1;
+}
+
+.b {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+    position: absolute;
+    
+}

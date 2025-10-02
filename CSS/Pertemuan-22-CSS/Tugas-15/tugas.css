@@ -13,12 +13,12 @@ h1 {
     justify-content: center;
     display: flex;
     background: burlywood;
+    gap: 20px;
 }
 
 .card-1 {
     background-color: #ffffff;
     padding: 20px;
-    margin: 20px;
     /* box-sizing: border-box; */
     border-radius: 20px;
     align-items: center;
@@ -52,14 +52,14 @@ button {
 }
 
 .feedback-1 {
-    width: 300px;
+    width: auto;
     align-items: center;
     text-align: center;
     border: 1px solid black;
 }
 
 .feedback-2 {
-    width: 300px;
+    width: auto;
     align-items: center;
     text-align: center;
     border: 1px solid black;
@@ -71,4 +71,5 @@ button {
     padding-left: 390px;
     padding-right: 390px;
     display: flex;
+    gap:20px;
 }
