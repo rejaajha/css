@@ -4,10 +4,12 @@ header {
     background-color: lightgray;
     font-size: 6px;
     padding: 3px;
+    z-index: 999;
 }
 
 .gambar {
     border: 1px solid black;
+    position: relative;
     width: 600px;
     margin: auto;
     overflow: hidden;
@@ -61,4 +63,19 @@ header {
     z-index: 2;
     position: absolute;
     
+}
+
+.tombol {
+    display: inline-block;
+    background-color: darkgrey;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    cursor: pointer;
+    align-content: center;
 }
