@@ -1,65 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 
     <style>
-        ul#inline li {
-            display: inline;
-            background-color: greenyellow;
-            padding: 10px;
-        }
+      ul#inline li {
+        display: inline;
+        background-color: greenyellow;
+        padding: 10px;
+      }
 
-        .heading {
-            font-size: 20px;
-            font-weight: bold;
-        }
+      .heading {
+        font-size: 20px;
+        font-weight: bold;
+      }
 
-        .subheading {
-            padding-left: 30px;
-        }
+      .subheading {
+        padding-left: 30px;
+      }
 
-        span {
-            padding: 10px;
-            display: block;
-        }
+      span {
+        padding: 10px;
+        display: block;
+      }
+
+      p #none {
+        display: none;
+      }
     </style>
-</head>
-<body>
-    <p>Ini adalah <span style="color: red;"> teks merah </span>di dalam paragraf</p>
+  </head>
+  <body>
+    <p>
+      Ini adalah <span style="color: red"> teks merah </span>di dalam paragraf
+    </p>
 
     <ul id="inline">
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
     </ul>
 
-    <div style="background-color: lightblue; padding: 10px;">
-        ini adalah elemen div dengan latar belakang biru muda
+    <div style="background-color: lightblue; padding: 10px">
+      ini adalah elemen div dengan latar belakang biru muda
     </div>
 
     <div>
-        <span class="heading">Pelatihan</span>
-        <span class="subheading">Kurikulum</span>
-        <span class="subheading">Materi</span>
-        <span class="subheading">Lokasi</span>
+      <span class="heading">Pelatihan</span>
+      <span class="subheading">Kurikulum</span>
+      <span class="subheading">Materi</span>
+      <span class="subheading">Lokasi</span>
     </div>
     <div>
-        <span class="heading">Perusahaan</span>
-        <span class="subheading">Tim</span>
-        <span class="subheading">Visi & Misi</span>
+      <span class="heading">Perusahaan</span>
+      <span class="subheading">Tim</span>
+      <span class="subheading">Visi & Misi</span>
     </div>
 
-    <div style="display: inline-block; background-color: peachpuff;
-    width: 200px; height: 100px; margin: 10px;">
-    Kotak 1
+    <div
+      style="
+        display: inline-block;
+        background-color: peachpuff;
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+      "
+    >
+      Kotak 1
     </div>
 
-    <div style="display: inline-block; background-color: lightcoral;
-    width: 150px; height: 150px; margin: 10px;">
-    Kotak 2
+    <div
+      style="
+        display: inline-block;
+        background-color: lightcoral;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+      "
+    >
+      Kotak 2
     </div>
-</body>
+
+    <p id="none">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dolor?
+      Iusto dolor expedita illo, quos nesciunt neque sequi unde atque quibusdam.
+      Voluptatem ea ab perspiciatis dolorem, omnis dignissimos voluptatibus
+      quibusdam.
+    </p>
+
+    <!-- CSS VISIBILITY & DISPLAY NONE -->
+    <div>
+      <img src="https://picsum.photos/200" alt="" />
+      <p id="hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut quod sed
+        soluta libero, voluptas asperiores labore commodi est modi aliquid
+        temporibus at veniam, mollitia odit sequi, magni quasi! Optio.
+      </p>
+    </div>
+
+    <div>
+      <img src="https://picsum.photos/200" alt="" />
+      <p id="none">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae
+        vitae commodi impedit non illo dolorem ad? Velit ad ipsa ea? Eius
+        facilis odit qui consectetur sunt doloribus accusamus autem?
+      </p>
+    </div>
+
+    <!-- Flexbox -->
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid-container">
+        <div class="grid-item header">Header</div>
+        <div class="grid-item sidebar">Sidebar</div>
+        <div class="grid-item content">Main Content</div>
+        <div class="grid-item footer">Footer</div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,69 @@
+body {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.text{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+}  
+
+.nav-item img {
+    width: 30px;
+    height: 30px;
+    align-content: center;
+}
+
+.wa {
+    background-color: greenyellow;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.in {
+    background-color: cadetblue;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.pi {
+    background-color: crimson;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.plus {
+    background-color: orangered;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.medsos {
+    position: fixed;
+    align-items: center;
+} 
+
+.medsos :hover {
+    cursor: pointer;
+}
+
