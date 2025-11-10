@@ -1,0 +1,372 @@
+/* Kode CSS Navigasi */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.115);
+}
+.f-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: #e8f7fd;
+}
+
+.f-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: #e8f7fd;
+}
+
+.f-2-a a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-2-a {
+    display: flex;
+    gap: 10px;
+}
+
+.f-2-a {
+    list-style-type: none;
+}
+
+.nav-social img{
+    width: 150px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ungu a {
+    color: #5E3BEE;
+}
+
+.logo img {
+    width: 186.67px;
+    height: 40px;
+}
+
+.nav-button button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 2px solid #5E3BEE;
+    background-color: white;
+    color: #5E3BEE;
+    font-weight: bold;
+}
+/* Kode CSS Navigasi */
+
+/* Kode CSS Hero */
+.hero {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background-color: #e8f7fd;
+}
+
+.hro-ungu {
+    color: #5E3BEE;
+}
+
+.hero-1 {
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+}
+
+.hero-1 h1 {
+    font-size: 50px;
+}
+
+.hero-1 button {
+    padding: 15px 20px;
+    color: white;
+    background-color: #5E3BEE;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-2 {
+    padding: 40px;
+}
+
+.hero-2 img{
+    width: 600px;
+    height: auto;
+}
+/* Kode CSS Hero */
+
+/* skill */
+.skill {
+    font-family: sans-serif;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.skill-h {
+    line-height: 10px;
+    margin-bottom: 50px;
+}
+
+.skill-display {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.skill-con:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px #5E3BEE;
+}
+
+.skill-con {
+    background-color: #e8f7fd;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+
+.skill-con img {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.256);
+    border-radius: 10px;
+}
+
+.skill-con h1{
+    font-size: 25px;
+
+}
+
+.skill-con p{
+    font-size: 15px;
+
+}
+/* skill */
+
+/* about me */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 40px;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+.img-about-me img{
+    width: auto;
+    height: 600px;
+}
+
+.txt-about-me {
+    align-items: center;
+    align-content: center;
+}
+
+.txt-about-me h1{
+    font-size: 50px;
+    line-height: 10px;
+}
+
+.txt-about-me p {
+    line-height: 25px;
+}
+/* about me */
+
+/* Recent Project */
+.project {
+    padding: 40px;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+.pro-head {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pro-head-txt h1 {
+    line-height: 10px;
+}
+
+.pro-head-btn button {
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #E62872;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.pro-head-btn button img {
+    height: auto;
+    width: 25px;
+}
+
+.pro-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.pro-body-con {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.089);
+    border-radius: 5px;
+}
+
+.pro-body-con-txt {
+    padding: 20px;
+}
+
+.pro-body-con-txt p {
+    color: rgb(112, 110, 110);
+}
+
+.pro-body-con img {
+    height: auto;
+    width: 475px;
+}
+/* Recent Project */
+
+/* contact */
+.contact {
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+.contact-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-baris-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-baris-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-form {
+    display: grid;
+    margin-top: 20px;
+}
+
+.input-form input{
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    border: solid 2px #5E3BEE;
+    border-radius: 5px;
+}
+
+.input-baris-3 {
+    display: grid;
+    margin-top: 20px;
+}
+
+.input-baris-4 {
+    display: grid;
+    margin-top: 20px;
+}
+
+.input-baris-3 select{
+    margin-top: 10px;
+    width: 735px;
+    height: 40px;
+    border: solid 2px #5E3BEE;
+    border-radius: 5px;
+}
+
+.input-baris-4 textarea{
+    margin-top: 10px;
+    width: 735px;
+    height: 200px;
+    border: solid 2px #5E3BEE;
+    border-radius: 5px;
+}
+
+.form-baris-3 {
+    justify-items: center;
+}
+.form-baris-4 {
+    justify-items: center;
+}
+
+.acc {
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    margin-left: 385px;
+}
+
+.form-submit {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-submit button{
+    padding: 15px 30px;
+    background-color: #5E3BEE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* contact */
