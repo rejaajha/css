@@ -1,0 +1,39 @@
+a:hover {
+    color: red;
+}
+
+p {
+    font-size: 50px;
+}
+
+p:hover {
+    color: blue;
+}
+
+div {
+    transition: background-color 1s, transform 0.3s;
+}
+
+div:hover {
+    background-color: aqua;
+    transform: translateX(100px);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(500px);
+    }
+}
+
+.kotak {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
