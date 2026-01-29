@@ -1,0 +1,45 @@
+body {
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient(90deg,rgba(156, 198, 219, 1) 0%, rgba(252, 246, 217, 1) 50%, rgba(221, 186, 125, 1) 100%);
+    display: flexbox;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    transition: text-shadow 0.4s ease;
+}
+
+h2 {
+    font-family: 'outfit';
+    transition: text-shadow 0.4s ease;
+}
+
+div {
+    text-align: center;
+    padding: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.712);
+    border-radius: 10px;
+    animation: naikTurun 3s ease-in-out infinite alternate;
+    margin-top: 100px;
+}
+
+@keyframes naikTurun {
+    0% {
+        transform: translateY(0); /* Posisi awal (di tempat) */
+    }
+    100% {
+        transform: translateY(-50px); /* Bergerak ke atas sejauh 50px */
+    }
+}
+
+h1:hover{
+    text-shadow: 0 0 10px rgb(0, 208, 255);
+}
+
+h2:hover {
+    text-shadow: 0 0 10px rgba(221, 186, 125);
+}
+
+
