@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let angka = 123456;
+        let notasiIlmiah = angka.toExponential(2);
+        console.log("Notasi Ilmiah Dari" + angka + " adalah: " + notasiIlmiah);
+
+        let angkaDesimal = 123.456789;
+        let presisiAngka = angkaDesimal.toFixed(3)
+
+        console.log(`Presisi 3 digit dari ${angkaDesimal} adalah: ${presisiAngka}`);
+
+        let angkaPresisi = 123.456;
+        let presisiTotal = angkaPresisi.toPrecision(3);
+
+        console.log(`Presisi total 3 digit dari ${angkaPresisi} adalah: ${presisiTotal}`);
+
+        let angkaString = 1000;
+        let ubahString = angkaString.toString();
+
+        console.log("mengubah angka " + angkaString + "Menjadi String:" + ubahString );
+
+        let number = 150;
+        let boolean = true;
+
+        let strNumber = String(number);
+        let strBoolean = String(boolean);
+
+        console.log(`Konversi Number Ke string: ${strNumber}`);
+        console.log(`Konversi Boolean ke string: ${strBoolean}`);
+
+        let strAngka = "123";
+        let strFloat = "456.78";
+        let boolValue = false;
+
+        let strKonversi = Number(strAngka);
+        let floatkonversi = Number(strFloat);
+        let boolKonversi = Number(boolValue);
+
+        console.log(`Konversi String Ke number: ${strKonversi}`);
+        console.log(`Konversi String float ke number: ${floatkonversi}`);
+        console.log(`Konversi Boolean ke number: ${boolKonversi}`);
+
+        let strCentimeter = "100cm";
+        let strDecimal = "78.9px";
+
+        let intParse = parseInt(strCentimeter);
+        let floatParse = parseFloat(strDecimal);
+
+        console.log(`Parse Int dari "${strCentimeter}": ${intParse}`);
+        console.log(`Parse float dari "${strDecimal}": ${floatParse}`);
+
+        let numHundred = 100;
+        let string = "Banu Saiful";
+        let empty = null;
+
+        let boolFromNum = Boolean(numHundred);
+        let boolFromString = Boolean(string);
+        let boolFromEmpty = Boolean(empty);
+
+        let umurKu = 10;
+        let pesan = `umurku ${umurKu} tahun`;
+        
+        console.log(pesan);
+
+        salam = `selamat pagi`
+
+        console.log(salam)
+
+        let bro = 10.5;
+        let broo = parseInt(bro);
+        console.log(broo);
+    </script>
+</body>
+</html>

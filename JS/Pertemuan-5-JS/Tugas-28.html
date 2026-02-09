@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const sekolah = 'Pondok Tahfidz Plus Abu Dzar';
+      console.log('Sekolah',sekolah);
+
+      let buku = {
+          judul: "Atomic Habits",
+          penulis: "Fakhril",
+          tahunTerbit: "1899",
+          kategori : [
+            'Pengembangan diri',
+            'Motivasi', 'Psikologi & Kebiasaan'
+          ]
+      };
+
+      console.log(buku);
+
+      const result = (85 + 14);
+      console.log(result);
+
+      //implementasi infinity dan -infinity
+      const positiveInfinity = 1 / 0;
+      const negativeInfinity = -1 / 0;
+
+      console.log('Positive Infinity', positiveInfinity);
+      console.log('Negative Infinity', negativeInfinity);
+
+      //Implementasi NaN (not a number)
+      let notANumber = 0 / 0;
+
+      let hasil = 5 * "abc";
+
+      console.log('Not a Number (NaN):', notANumber)
+      console.log('Not a Number (NaN):', hasil)
+
+      //Method objek number
+      let angka = 123.456;
+
+      //Method Javascript: ToExponential
+      let angka1 = 1000;
+      let hasil1 = angka1.toExponential(2);
+
+      console.log(hasil1);
+    </script>
+  </body>
+</html>

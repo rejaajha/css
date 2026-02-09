@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        //Number
+        function luasLingkaran(jariJari1,jariJari2) {
+            return 3.14 * jariJari1 *jariJari2;
+        }
+
+        const result = luasLingkaran(50, 40);
+        console.log(result);
+
+        //Boolean
+        const isGreater = 10 > 50;
+        console.log (`Is 10 greater than 50? ${isGreater}`);
+
+        //Nilai Kosong(Undefined & Null)
+        let UndefinedVar;
+        console.log(`Value of UndefinedVar: ${UndefinedVar}`)
+
+        let nullVar = null;
+        console.log(`Value of nullVar: ${nullVar}`);
+
+        //menampilkan hasil null dan undefined di halaman html
+        const name1 = {
+            firstName: "Saipul",
+            lastName: null
+        };
+        const name2 = {
+            firstName: "Udin",
+            lastName: undefined
+        };
+
+        console.log(JSON.stringify(name1));
+        console.log(JSON.stringify(name2));
+
+        //menampilkan object di HTML
+        let person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30,
+            Study: "Indonesian University"
+        };
+
+        console.log('Dia person', person);  
+
+        //Menampilkan array di halaman HTML
+        let nilaiUjian = [80,85,90];
+
+        console.log('Nilai Ujian', nilaiUjian);
+        
+        //menampikan array of object di hlaman HTML
+        let orangs = [
+            {name: "Sukiman", age:"68"},
+            {name: "Sukirno", age:"72"},
+            {name: "Sukardi", age: "70"},
+            {name: "Sukarto", age: "65"}
+        ]
+
+        console.log('data ke 3', orangs[2]); 
+        console.log('data seluruh orang', orangs);
+
+    </Script>
+</body>
+</html>
